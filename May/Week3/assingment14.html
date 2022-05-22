@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="container border mt-5">
+            <div class="row ">
+                <div class="col-12" style="background-color: rgb(15, 54, 15);">
+                    <h2 class="text-white py-1">GITHUB SEARCH</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 mt-5">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Enter Username" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="card mt-5 ms-2" style="width: 18rem;">
+                        <img src="data:image/jpeg;base64,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"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dheeraj Sharma</h5>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 border mt-5 ">
+                    <div class="row">
+                        <h3 class="bg-success text-white  py-1">User Details</h3>
+                    </div>
+                    <div class="row  border"> Dheeraj Sharma</div>
+                    <div class="row mt-2 border">Banglore</div>
+                    <div class="row mt-2 border">linkedin.com/in/dheeraj-sharma-b0626a227</div>
+                    <div class="row mt-2 border">https://github.com/Dheeraj-cloud/april22webfundamentaltest</div>
+                    <div class="row mt-2 border">Geektrust</div>
+                    <div class="row mt-2 border">TS</div>
+                    <div class="row mt-2 border">Male</div>
+                    <div class="row mt-2 border">Software Developer</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
